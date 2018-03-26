@@ -24,4 +24,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default BookDetail
+export default connect(mapStateToProps)(BookDetail);

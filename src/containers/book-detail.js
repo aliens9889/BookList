@@ -9,7 +9,7 @@ class BookDetail extends Component {
     }
 
     return (
-      <div>
+      <div className="col-md-8 detail">
         <h3>Details for:</h3>
         <div>Title: {this.props.book.title}</div>
         <div>Pages: {this.props.book.pages}</div>
